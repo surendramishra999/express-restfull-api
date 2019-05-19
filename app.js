@@ -14,7 +14,7 @@ if (process.env.ENV === 'TEST') {
     useNewUrlParser: true,
   });
 } else {
-  console.info(`PROD  DATABASE ${process.env.ENV}`);
+  console.info('PROD  DATABASE');
   const db = mongoose.connect('mongodb://localhost/bookAPI', {
     useNewUrlParser: true,
   });
