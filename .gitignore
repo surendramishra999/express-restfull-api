@@ -1,2 +1,2 @@
-library/node_modules
-library/node_modules/*
+node_modules
+node_modules/*
